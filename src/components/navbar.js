@@ -1,13 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
-
 class Navbar extends React.Component{
     constructor(props) {
         super(props);
-
         this.state = {};
-
         this.handleScroll = this.handleScroll.bind(this);
     }
 
@@ -15,12 +12,11 @@ class Navbar extends React.Component{
         this.setState({scroll: window.scrollY});
     }
   
-  componentDidMount() {
+    componentDidMount() {
         const el = document.querySelector('nav');
         this.setState({top: el.offsetTop, height: el.offsetHeight});
         window.addEventListener('scroll', this.handleScroll);
     }
-  
 
     render() {
         return(
