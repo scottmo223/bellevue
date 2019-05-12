@@ -13,9 +13,9 @@ class Layout extends React.Component {
         <Navbar/>
         <main style={{textAlign: 'center'}} className="">{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Built by
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://scottmorales.dev">Scott Morales</a>
         </footer>
       </div>
     )
