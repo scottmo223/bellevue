@@ -29,6 +29,7 @@ class Navbar extends React.Component{
                     <li><Link to={`/pricing`}>Pricing</Link></li>
                     <li><Link to={`/pictures`}>Pictures</Link></li>
                 </ul>
+                <div className="placeholder" />
             </nav>
         )
     }
