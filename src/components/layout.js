@@ -9,9 +9,9 @@ class Layout extends React.Component {
       <div>
         <header style={{
           background: `${this.props.headerImage} center/100% no-repeat`
-        }}><h1>{this.props.title}</h1></header>
+        }}><h1 style={{fontWeight: '300'}}>{this.props.title}</h1></header>
         <Navbar/>
-        <main className="">{children}</main>
+        <main style={{textAlign: 'center'}} className="">{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
