@@ -16,7 +16,7 @@ class Index extends React.Component {
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <div className='about'>
+        <div id='about' className='about'>
           <h1>Belle Vue Wedding Venue</h1>
           <p>Belle Vue is a beautiful venue for your wedding/special event needs. Spectacular mature wooded views and a gorgeous, modern building as the perfect canvas!</p>
           <div className='quote'>
@@ -29,7 +29,7 @@ class Index extends React.Component {
           </div>
         </div>
 
-        <div className='prices'>
+        <div id='pricing' className='prices'>
           <h1 style={{
             background: `url(https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) 50%/100% no-repeat`,
             height: '24vw',

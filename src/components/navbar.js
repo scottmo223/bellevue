@@ -25,8 +25,8 @@ class Navbar extends React.Component{
                 <input type="checkbox" id="hamburger"/>
                 <ul>
                     <li className="logo"><Link to={`/`}>Belle Vue</Link></li>
-                    <li><Link to={`/about`}>About</Link></li>
-                    <li><Link to={`/pricing`}>Pricing</Link></li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#pricing'>Pricing</a></li>
                     <li><Link to={`/pictures`}>Pictures</Link></li>
                 </ul>
                 <div className="placeholder" />
