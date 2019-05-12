@@ -21,6 +21,8 @@ class Navbar extends React.Component{
     render() {
         return(
             <nav id="main" className={this.state.scroll > this.state.top ? "fixed-nav" : ""}>
+                <label for="hamburger">&#9776;</label>
+                <input type="checkbox" id="hamburger"/>
                 <ul>
                     <li className="logo"><Link to={`/`}>Belle Vue</Link></li>
                     <li><Link to={`/about`}>About</Link></li>
