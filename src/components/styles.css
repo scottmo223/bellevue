@@ -41,7 +41,7 @@ html {
   }
   
   nav {
-    background: rgb(85, 84, 84);
+    background: #353535;
     top: 0;
     width: 100%;
     transition:all 0.5s;
@@ -50,8 +50,9 @@ html {
   }
   
   .fixed-nav {
-    position: fixed;
-    box-shadow: 0 5px 0 rgba(0,0,0,0.1);
+    position: sticky;
+    position: -webkit-sticky;
+    box-shadow: 0 5px 0 rgba(0,0,0,0.2);
   }
   
   nav ul {
@@ -67,6 +68,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0px;
   }
   
   li.logo {
@@ -84,7 +86,7 @@ html {
   
   nav a {
     text-decoration: none;
-    padding: 20px;
+    padding: 2px;
     display: inline-block;
     color: white;
     transition: all 0.2s;
