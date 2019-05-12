@@ -137,6 +137,7 @@ html {
     } 
 
     nav ul {
+      display: none;
       flex-direction: column;
     }
 
@@ -145,11 +146,9 @@ html {
       font-size: 25px;
     }
     nav input:checked ~ ul {
-      display: none;
+      display: flex;
     } 
-    nav input:checked ~ #logo {
-      display: inline-block;
-    } 
+    
 
     
   }
