@@ -40,6 +40,12 @@ html {
     color: white;
     font-size: 7vw;
     text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+    font-weight: 400;
+  }
+
+  .prices ul{
+    text-align: left;
+    list-style: decimal;
   }
   
   nav {
