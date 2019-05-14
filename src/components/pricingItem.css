@@ -1,0 +1,16 @@
+#body {
+    text-align: justify;
+}
+
+div #words {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    div .main {
+        flex-direction: column-reverse;
+    }
+    div #words {
+        margin-left: 0px;
+    }
+}
