@@ -36,8 +36,8 @@ class Index extends React.Component {
         </div>
         
         <div id='picture' style={{
-          maxWidth: "55vw",
-          margin: "0 auto",
+          maxWidth: "60%",
+          margin: "120px auto",
         }}>
           <Pictures />
         </div>

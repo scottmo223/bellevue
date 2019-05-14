@@ -7,6 +7,8 @@ class AddOns extends React.Component{
             <div style={{
                 display: "flex",
                 flexDirection: "column",
+                width: "90%",
+                margin: "auto",
             }}>
                 <h3 style={{
                     fontFamily: "Montserrat",
