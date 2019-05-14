@@ -11,7 +11,7 @@ class PricingItem extends React.Component {
                 marginTop: "50px",
             }}>
               <div id="words" style={{
-                  maxWidth: "600px", 
+                  maxWidth: "85vw", 
                   display: "flex",
                   flexDirection: "column",
                 }}>
@@ -32,7 +32,8 @@ class PricingItem extends React.Component {
               <div id="picture" style={{
                 background: `url(${this.props.picture}) 50%/100% no-repeat`,
                 height: '250px',
-                width: '430px',
+                width: '100%',
+                maxWidth: '430px',
                 margin: "50px"
               }}></div>
             </div>

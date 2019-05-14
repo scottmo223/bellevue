@@ -20,7 +20,7 @@ class Navbar extends React.Component{
 
     render() {
         return(
-            <nav id="main" className={this.state.scroll > this.state.top ? "fixed-nav" : ""}>
+            <nav id="main" className={this.state.scroll > this.state.top ? "fixed-nav" : ""} style={{width: "100%"}}>
                 <label for="hamburger">&#9776;</label>
                 <input type="checkbox" id="hamburger"/>
                 <ul>
