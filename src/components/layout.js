@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 
 class Layout extends React.Component {
   render() {
@@ -12,11 +13,7 @@ class Layout extends React.Component {
         }}><h1 style={{fontWeight: '300'}}>{this.props.title}</h1></header>
         <Navbar/>
         <main style={{textAlign: 'center'}} className="">{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built by
-          {` `}
-          <a href="https://scottmorales.dev">Scott Morales</a>
-        </footer>
+        <Footer />
       </div>
     )
   }
