@@ -26,8 +26,8 @@ class Navbar extends React.Component{
                 <ul>
                     <li className="logo"><Link to={`/`}>Belle Vue</Link></li>
                     <li><a href='#detail'>About</a></li>
-                    <li><a href='#pricing'>Pricing</a></li>
                     <li><a href='#picture'>Pictures</a></li>
+                    <li><a href='#pricing'>Pricing</a></li>
                 </ul>
                 <div className="placeholder" />
             </nav>
