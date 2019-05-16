@@ -44,7 +44,7 @@ class Index extends React.Component {
 
         <div id='detail' className='details'>
           <PictureHeading title="About Belle Vue" imageUrl="https://images.unsplash.com/2/04.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" />
-          <p style={{textAlign: 'justify', width: '70vw', margin: "40px auto 120px"}}>Detail details details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ante lorem. Vivamus nisi eros, pulvinar ac malesuada id, iaculis quis ipsum. Phasellus sapien massa, congue eget nisl at, commodo faucibus nisl. Cras laoreet sapien id vestibulum ullamcorper. Donec vel tellus id est pharetra tempor. In finibus nec ipsum at consequat. Curabitur pellentesque nisi sodales, volutpat erat et, tempus ex. Fusce ut felis mauris. Integer accumsan mollis purus a dictum. Sed vel augue risus. Nunc nisi ipsum, laoreet non quam vel, hendrerit tincidunt turpis. Curabitur non mi auctor, sodales augue sed, luctus mi. Morbi volutpat enim placerat arcu convallis, at commodo tortor iaculis. Nulla scelerisque ex dui. Quisque dapibus euismod molestie.</p>
+          <p style={{textAlign: 'justify', width: '70vw', margin: "40px auto 120px"}}>Belle Vue is the most beautiful place you've ever seen. Come have your wedding here. It has gold toilets. We have lakes and stuff. Really cool chairs. We cut our grass most of the time. There are probably tons of mosquitos, but who cares since its just one day. Just do it. Buy  it. Buy two days and just use one. Why not?</p>
         </div>
 
         <Pricing />
