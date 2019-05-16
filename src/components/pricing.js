@@ -15,17 +15,18 @@ class Pricing extends React.Component {
             
             <PricingItem item="Parties" cost="750" picture="https://images.unsplash.com/photo-1490676138263-c0608ea4b6df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80">
             <p>Includes tables, chairs, hall area, bar area and back porch. 6 hours of usage time, 1 additional hour for clean up. Clean up is required by customer which includes no fee. 1 hour is given for cleaning time where the customer removes all items they brought, puts chairs on tables, sweeps, cleans rooms and bathrooms and takes out all trash to dumpster provided on the property. Cleaning can be done by Belle Vue staff for a $200 fee.</p>
-              <h6>Any required time before the 6 hour time frame or after has a charge of $150 an hour.</h6>
             </PricingItem>
+            <h6 style={{marginTop: "50px"}}>A security deposit of $500 is refundable unless there are overages or damages.</h6>
+            <h6 style={{marginTop: "0px", marginBottom: "70px"}}>Any required time before or after the purchased event time frame has a charge of $150 an hour.</h6>
               
             <hr />
-            <h4>The following additions are available upon request</h4>
+            <h4 style={{width: "80vw", margin : "70px auto", textDecorationLine: "underline"}}>The following additions are available upon request</h4>
             
-            <AddOn item="Meal" price="500">
+            <AddOn item="Dishes" price="500">
               <p>Full dinner service including round ivory dinner plates, round ivory cake plates, 16 oz water goblets, and silverware. This includes setting the table, clearing away, and cleaning.</p>
             </AddOn>
             <AddOn item="Bartending" price="200">
-              <p>We will hire a TABC certified bartender to serve your guests for up to four hours. All alcohol, cups, and bar napkins are to be provided by the customer.</p>
+              <p>We will hire a TABC certified bartender to serve your guests for up to four hours. A certified Peace Officer must be working security at the time of the event. All alcohol, cups, bar napkins, and certified Peace Officer are to be provided by the customer.</p>
             </AddOn>
             <AddOn item="Chair Set Up / Tear Down" price="300">
               <p>While the use of our outdoor garden chairs are free, customers are responsible to set them up as they desire, and return them to their original position. Belle Vue will provide this service for $300.</p>
