@@ -164,3 +164,11 @@ html {
       flex-direction: column;
     } 
   }
+
+  a img {
+    max-width: 50px;
+  }
+
+  .icon a {
+    box-shadow: none;
+  }

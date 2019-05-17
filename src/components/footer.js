@@ -1,4 +1,6 @@
 import React from "react"
+import facebook from "../../content/assets/f_logo_RGB-Black_512.png"
+import instagram from "../../content/assets/glyph-logo_May2016.png"
 
 class Footer extends React.Component {
     render(){
@@ -24,29 +26,23 @@ class Footer extends React.Component {
             </h4>
             
             <div style={{display: "flex", justifyContent: "center", marginBottom: "120px"}}>
-                <div className="" style={{margin: "auto 20px"}}>
+                <div className="icon" style={{margin: "auto 20px"}}>
                     <a
-                        href="https://www.facebook.com/bellevue"
+                        href="https://www.facebook.com/bellevue.tyler/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                    <span className="icon">
-                        {/* <img src={linkedin} alt="LinkedIn" /> IMPORT AND ADD LOGO */}
-                        FB
-                    </span>
+                        <img src={facebook} alt="Facebook" />
                     </a>
                 </div>
                 
-                <div className="" style={{margin: "auto 20px"}}>
+                <div className="icon" style={{margin: "auto 20px"}}>
                     <a
-                        href="https://www.instagram.com/bellevue"
+                        href="https://www.instagram.com/bellevuetyler/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                    <span className="icon">
-                        {/* <img src={linkedin} alt="LinkedIn" /> IMPORT AND ADD LOGO */}
-                        IG
-                    </span>
+                        <img src={instagram} alt="Instagram" />
                     </a>
                 </div>
             </div>
