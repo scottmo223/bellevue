@@ -1,6 +1,4 @@
 ---
-body: meow meow
-title: My first blog post
+title: I changed this second
 ---
-
-What's this stuff?
+I changed this first.
